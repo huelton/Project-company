@@ -6,8 +6,8 @@ import org.springframework.web.bind.annotation.GetMapping;
 @Controller
 public class HomeController {
 
-	// abrir pagina home
-	@GetMapping("/")
+	// abrindo pagina home
+	@GetMapping("/home")
 	public String home() {
 		return "home";
 	}	
